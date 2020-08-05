@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<style>
+p.ex1 {
+	font-size: 30px;
+  margin-bottom: 5px;
+}
+p.ex2 {
+	font-size: 50px;
+}
+</style>
+	<head>
+		<title>Read Only by HTML5 UP</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="/js/jquery.min.js"></script>
+		<script src="/js/jquery.scrollzer.min.js"></script>
+		<script src="/js/jquery.scrolly.min.js"></script>
+		<script src="/js/skel.min.js"></script>
+		<script src="/js/skel-layers.min.js"></script>
+		<script src="/js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="/css/skel.css" />
+			<link rel="stylesheet" href="/css/style.css" />
+			<link rel="stylesheet" href="/css/style-xlarge.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+
+    <body>
+        <div id="wrapper">
+        <!-- Header -->
+    <section id="header" class="skel-layers-fixed">
+        <header>
+            <span class="image avatar"><img src="/images/avatar.jpg" alt="" /></span>
+            <h1 id="logo"><a href="/">Theodora Karalidi</a></h1>
+            <p>Theoretical astrophysicist with an interest <br />
+            in exoplanets, brown dwarfs and <br /> polarization</p>
+        </header>
+        <nav id="nav">
+            <ul>
+               <li><a href="/">Home</a></li>
+	        	   <li><a href="/about/">Research</a></li>
+        		   <li><a href="/CV/">CV</a></li>
+			         <li><a href="/teaching/">Teaching</a></li>
+            </ul>
+        </nav>
+        <footer>
+            <ul class="icons">
+                <li><a href="https://github.com/tkaralidi/" class="icon fa-github"><span class="label">Github</span></a></li>
+                <li><a href="mailto:tkaralidi@ucf.edu" class="icon fa-envelope"><span class="label">Email</span></a></li>
+            </ul>
+        </footer>
+    </section>
+
+<ul class="menu">
+
+    </ul>
+
+
+
+            <!-- Main -->
+            <div id="main">
+
+      <p class="ex2", style="margin-left:2.5em"> <strong> My research </strong> </p>
+
+
+      <p style="margin-left:2.5em"> I am a theoretical astrophysicist interested in the chracterization of brown dwarfs and exoplanets. My work focuses on trying to understand more
+				about these exciting objects by modeling their flux and polarization spectra and mapping their
+				atmospheres (and potentially surfaces). I am an Assistant Professor in the Physics department at the University of Central Florida. </p>
+
+
+				<p class="ex1", style="margin-left:2.5em",  style="margin-top:1em"> <strong> How do we characterize these atmospheres? </strong> </p>
+
+				<p style="margin-left:2.5em"> 	With thousands of exoplanets and brown dwarfs detected to date, our goal has shifted from ‘just’ detecting
+					more of these atmospheres to also trying to characterize them. By characterizing these atmospheres we try to answer a number of questions
+					such as: Are there clouds in these atmospheres, and if so, <a href="https://ui.adsabs.harvard.edu/abs/2016ApJ...826....8Y/abstract" style="color:blue"> where </a>
+					are these clouds and how are they organized (e.g., <a href="https://ui.adsabs.harvard.edu/abs/2015ApJ...814...65K/abstract" style="color:blue"> spots </a> or
+					<a href="https://ui.adsabs.harvard.edu/abs/2017Sci...357..683A/abstract" style="color:blue"> bands </a> )? If
+					there are clouds, how do they	<a href="https://ui.adsabs.harvard.edu/abs/2016ApJ...825...90K/abstract" style="color:blue"> change over time </a>  and what does that tell us about the atmospheric dynamics of our targets?  Does the age,
+					metallicity, gravity or another parameter affect how these atmospheres look like? </p>
+
+
+				<p style="margin-left:2.5em"> But how do we characterize a one-pixel atmosphere? To do that we compare our observational spectra (or photometry)
+					with model spectra (photometry). Comparing our observations with a grid of models with different temperatures, gravities, cloud content etc, we
+					find which model fits best our observations, and thus what the properties of the observed atmosphere are. </p>
+
+
+				<p class="ex1", style="margin-left:2.5em",  style="margin-top:1em"> <strong> Why maps? </strong> </p>
+
+				<p style="margin-left:2.5em"> Directly Imaged brown dwarfs and giant exoplanets currently, and terrestrial exoplanets in the future, are just
+					a pixel wide in our images. That pixel contains all the information on the atmosphere and (potentially) surface properties of our target. So
+					how can we know whether our target has continents, oceans and patchy clouds like the Earth, a Great Red Spot like Jupiter or a cloud decked
+					atmosphere like Venus? The solution to our problem is using time resolved observations, i.e., when we observe our target as it revolves around
+					its axis. The disk-integrated light we receive from the (pixel-wide) target will vary as the target revolves around its axis due to different
+					atmospheric and surface formations moving in and out of our field of view. The variation of the light curve, i.e., the light we receive from
+					the target as it revolves around its axis, can thus be used as a tool to map the atmosphere (and possible surface) of the planet. With this
+					in mind I developed <a href="https://arxiv.org/abs/1510.04251" style="color:blue"> Aeolus </a>, a Markov-Chain Monte Carlo code that can map the atmosphere of
+					our target, and its evolution over time, using observed light curves. </p>
+
+
+					<p class="ex1", style="margin-left:2.5em",  style="margin-top:1em"> <strong> Polarization: a useful tool to characterize exo-atmospheres </strong> </p>
+
+					<p style="margin-left:2.5em"> The Holy Grail of the field of exoplanets is to find Earth 2.0, an other planet that like Earth can host life on its surface.
+						A key ingredient to life as we know it, is liquid water. We thus classify as habitable, planets that have the appropriate conditions to have liquid water
+						on their surface. The existence of liquid water on the surface of an exoplanet can be indirectly inferred by the presence of liquid water on the exoplanet
+						atmosphere. </p>
+
+
+						<img src="{{ site.baseurl }}/images/pl_rnbw.jpg">
+
+
+
+					<p style="margin-left:2.5em"> One of the ways we can detect liquid water clouds on an exoplanet atmosphere is with the use of polarimetric observations.
+						The power of polarimetry in the characterization of an exoplanetary atmosphere was already shown over 40 years ago, with the retrieval of  the cloud top
+						pressure, composition and size distribution of cloud droplets in the upper Venusian atmosphere using ground-based, unresolved observations of Venus
+						by <a href="https://ui.adsabs.harvard.edu/abs/1974JAtS...31.1137H/abstract" style="color:blue"> Hansen & Hovenier (1974) </a>. Polarimetric observations are a powerful tool
+						that helps increase the planet-to-star contrast ratio, making it easier to directly detect an exoplanet, and that allows us to detect liquid water clouds
+						on the exoplanetary atmosphere by allowing the detection of the <a href="https://ui.adsabs.harvard.edu/abs/2011A%26A...530A..69K/abstract" style="color:blue"> rainbow </a> of
+						the liquid water clouds. </p>
+
+
+						<p style="margin-left:2.5em"> During my PhD in SRON and Leiden Observatory in the Netherlands I have worked on developing a radiative transfer code that
+							models the flux and polarization spectra of <a href="https://arxiv.org/abs/1210.3198" style="color:blue"> terrestrial </a> and <a href="http://arxiv.org/abs/1307.1161" style="color:blue"> giant </a>
+							exoplanets with heterogeneous cloud and, when applicable, surface coverage.  You can get
+							an open-access copy of my thesis <a href="https://openaccess.leidenuniv.nl/handle/1887/20830" style="color:blue"> here </a>. </p>
+
+						<p style="margin-left:2.5em"> Simulating terrestrial exoplanets with heterogeneous liquid and ice cloud coverage with
+							various configurations, my collaborators and I <a href="https://arxiv.org/abs/1211.1293" style="color:blue"> showed </a> that the
+							rainbow is a robust tool, that can be used to detect liquid water clouds on an exoplanet, even when optically thick
+							ice clouds exist on the exoplanet atmosphere! Using MODIS observations from April 25th 2011 we simulated the
+							Earth-as-an-exoplanet and showed that an alien observer could detect the
+							existence of liquid water clouds if he/she/it was using polarimetric observations! </p>
+
+						<p style="margin-left:2.5em"> Of course, theory needs always data to back it up. To test whether the rainbow is
+							indeed observable in the exoplanet-Earth signal we have proposed to create <a href="https://arxiv.org/abs/1203.0209" style="color:blue"> LOUPE </a>,
+							a small and robust polarimeter that can observe the Earth as if it were an exoplanet from the Moon. </p>
+
+            </div>
+            <!-- Footer -->
+    <section id="footer">
+
+    </section>
+
+		</div>
+	</body>
+</html>

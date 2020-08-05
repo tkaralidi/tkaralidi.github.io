@@ -1,12 +1,12 @@
-theme: jekyll-theme-tactile
+# Site settings
+title: Ion
+email: tkaralidi@ucf.edu
+description: Welcome! I am Theodora Karalidi a theoretical astrophysist working on exoplanet
+  and brown dwarf atmospheres.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://github.io/tkaralidi" # the base hostname & protocol for your site
+#twitter_username: jekyllrb
+github_username:  tkaralidi
 
-# Site wide configuration
-
-title: Theodora Karalidi
+# Build settings
 markdown: kramdown
-logo: ![Add an Image](images/bio-photo.jpg)
-
-# Enter the following platform usernames if you would like for them to appear on your site.
-owner:
-  name: Theodora Karalidi
-  avatar: bio-photo.jpg
